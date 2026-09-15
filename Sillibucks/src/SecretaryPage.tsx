@@ -57,7 +57,7 @@ const SecretaryPage: React.FC = () => {
       },
       body: JSON.stringify({
         query: search,
-        filters: { college: "Silliman" },
+        filters: { college: "Silliman College" },
         page: 0,
         page_size: 50,
       }),
